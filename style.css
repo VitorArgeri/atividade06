@@ -80,7 +80,7 @@ aside {
     align-items: center;
 }
 
-@media (min-width: 501px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .main-section {
         flex-wrap: wrap;
     }
@@ -101,7 +101,7 @@ aside {
     }
 }
 
-@media (min-width: 1px) and (max-width: 500px) {
+@media (min-width: 0px) and (max-width: 767px) {
     .main-section {
         flex-direction: column;
     }
